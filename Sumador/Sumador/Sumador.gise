@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Sumador.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Comparador.bld"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CHK" xil_pn:name="Comparador.chk"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Comparador.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CXT" xil_pn:name="Comparador.cxt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="Comparador.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="Comparador.jed"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="Comparador.jhd"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="Comparador.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Comparador.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="Comparador.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="Comparador.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Comparador.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Comparador.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Comparador.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Comparador.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="Comparador.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Comparador.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Comparador.rpt"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Comparador.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Comparador.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Comparador.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Comparador.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="Comparador.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Comparador.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Comparador.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Comparador_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Comparador_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="Comparador_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Comparador_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Comparador_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Comparador_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Comparador_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Comparador_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Sumador.bld"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CHK" xil_pn:name="Sumador.chk"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Sumador.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CXT" xil_pn:name="Sumador.cxt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="Sumador.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="Sumador.jed"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Sumador.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="Sumador.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="Sumador.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Sumador.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Sumador.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Sumador.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="Sumador.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sumador.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Sumador.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sumador.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Sumador.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Sumador.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="Sumador.vm6"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Sumador.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sumador_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sumador_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sumador_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Sumador_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1568919114" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1568919114">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568922153" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8732896085751406554" xil_pn:start_ts="1568922153">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568922875" xil_pn:in_ck="-6953465808215800957" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="1334574151431347336" xil_pn:start_ts="1568922860">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="Comparador.jhd"/>
+      <outfile xil_pn:name="Comparador.lso"/>
+      <outfile xil_pn:name="Comparador.ngc"/>
+      <outfile xil_pn:name="Comparador.ngr"/>
+      <outfile xil_pn:name="Comparador.prj"/>
+      <outfile xil_pn:name="Comparador.stx"/>
+      <outfile xil_pn:name="Comparador.syr"/>
+      <outfile xil_pn:name="Comparador.xst"/>
+      <outfile xil_pn:name="Comparador_vhdl.prj"/>
+      <outfile xil_pn:name="Comparador_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1568922411" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-916541213031368320" xil_pn:start_ts="1568922411">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568922888" xil_pn:in_ck="-6272871608241312401" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="2820029809837737375" xil_pn:start_ts="1568922875">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Comparador.bld"/>
+      <outfile xil_pn:name="Comparador.ngd"/>
+      <outfile xil_pn:name="Comparador_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1568922904" xil_pn:in_ck="-6222329501727585583" xil_pn:name="TRANEXT_vm6File_xbr" xil_pn:prop_ck="-2728107730412533187" xil_pn:start_ts="1568922888">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Comparador.chk"/>
+      <outfile xil_pn:name="Comparador.cxt"/>
+      <outfile xil_pn:name="Comparador.gyd"/>
+      <outfile xil_pn:name="Comparador.log"/>
+      <outfile xil_pn:name="Comparador.mfd"/>
+      <outfile xil_pn:name="Comparador.nga"/>
+      <outfile xil_pn:name="Comparador.pad"/>
+      <outfile xil_pn:name="Comparador.pnx"/>
+      <outfile xil_pn:name="Comparador.rpt"/>
+      <outfile xil_pn:name="Comparador.vm6"/>
+      <outfile xil_pn:name="Comparador.xml"/>
+      <outfile xil_pn:name="Comparador_build.xml"/>
+      <outfile xil_pn:name="Comparador_html"/>
+      <outfile xil_pn:name="Comparador_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1568922908" xil_pn:in_ck="-938955133082309615" xil_pn:name="TRANEXT_crtProg_xbr" xil_pn:prop_ck="5245363024343" xil_pn:start_ts="1568922904">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Comparador.jed"/>
+    </transform>
+    <transform xil_pn:name="TRAN_timRpt">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

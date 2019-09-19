@@ -1,0 +1,67 @@
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador.ngc" Sumador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador.ngd 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+vhdtdtfi -lib work Sumador.vhd -prj Sumador -o Sumador.spl -module Sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xbr Sumador.spl {C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.sym} 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador.ngc" Sumador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador.ngd 
+XSLTProcess Sumador_build.xml 
+tsim -intstyle ise Sumador Sumador.nga 
+hprep6 -s IEEE1149 -i Sumador 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador.ngc" Sumador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador.ngd 
+XSLTProcess Sumador_build.xml 
+tsim -intstyle ise Sumador Sumador.nga 
+hprep6 -s IEEE1149 -i Sumador 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador.ngc" Sumador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador.ngd 
+XSLTProcess Sumador_build.xml 
+tsim -intstyle ise Sumador Sumador.nga 
+hprep6 -s IEEE1149 -i Sumador 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador.ngc" Sumador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador.ngd 
+XSLTProcess Sumador_build.xml 
+tsim -intstyle ise Sumador Sumador.nga 
+hprep6 -s IEEE1149 -i Sumador 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador.ngc" Sumador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador.ngd 
+XSLTProcess Sumador_build.xml 
+tsim -intstyle ise Sumador Sumador.nga 
+hprep6 -s IEEE1149 -i Sumador 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador.ngc" Sumador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador.ngd 
+XSLTProcess Sumador_build.xml 
+tsim -intstyle ise Sumador Sumador.nga 
+hprep6 -s IEEE1149 -i Sumador 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador.ngc" Sumador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador.ngd 
+XSLTProcess Sumador_build.xml 
+tsim -intstyle ise Sumador Sumador.nga 
+hprep6 -s IEEE1149 -i Sumador 
+vhdtdtfi -lib work Sumador.vhd -prj Sumador -o Sumador.spl -module Sumador -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xbr Sumador.spl {C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.sym} 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador.ngc" Sumador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador.ngd 
+XSLTProcess Sumador_build.xml 
+tsim -intstyle ise Sumador Sumador.nga 
+hprep6 -s IEEE1149 -i Sumador 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador.ngc" Sumador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador.ngd 
+XSLTProcess Sumador_build.xml 
+tsim -intstyle ise Sumador Sumador.nga 
+hprep6 -s IEEE1149 -i Sumador 
+XSLTProcess Sumador_build.xml 
+XSLTProcess Sumador_build.xml 

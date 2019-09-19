@@ -1,0 +1,130 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xbr | 2C256144 | XC2C256-6-TQ144
+
+DEVICE | 2C256 | 2C256144 | 
+
+NETWORK | Sumador | 0 | 0 | 1073823750 | 0
+
+MACROCELL_INSTANCE | NULL | C_MC | Sumador_COPY_0_COPY_0 | 0 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | C_MC.Q | 58 | ? | 0 | 0 | Sumador_COPY_0_COPY_0 | NULL | C_MC.Q | C_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | C_MC.SI | C_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | C_MC.D1 | 56 | ? | 0 | 0 | C_MC | NULL | NULL | C_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | C_MC.D2 | 55 | ? | 0 | 0 | C_MC | NULL | NULL | C_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | C_MC.REG | C_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | C_MC.D | 54 | ? | 0 | 0 | C_MC | NULL | NULL | C_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | C_MC.Q | 57 | ? | 0 | 0 | C_MC | NULL | NULL | C_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | C | Sumador_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | C_MC.Q | 58 | ? | 0 | 0 | Sumador_COPY_0_COPY_0 | NULL | C_MC.Q | C_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | C | 59 | PO | 0 | 0 | Sumador_COPY_0_COPY_0 | NULL | NULL | C | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | S_MC | Sumador_COPY_0_COPY_0 | 0 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | S_MC.Q | 64 | ? | 0 | 0 | Sumador_COPY_0_COPY_0 | NULL | S_MC.Q | S_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | S_MC.SI | S_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | S_MC.D1 | 62 | ? | 0 | 0 | S_MC | NULL | NULL | S_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | S_MC.D2 | 61 | ? | 0 | 0 | S_MC | NULL | NULL | S_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | S_MC.REG | S_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | S_MC.D | 60 | ? | 0 | 0 | S_MC | NULL | NULL | S_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | S_MC.Q | 63 | ? | 0 | 0 | S_MC | NULL | NULL | S_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | S | Sumador_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | S_MC.Q | 64 | ? | 0 | 0 | Sumador_COPY_0_COPY_0 | NULL | S_MC.Q | S_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | S | 65 | PO | 0 | 0 | Sumador_COPY_0_COPY_0 | NULL | NULL | S | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 3 | C_MC | 1 | NULL | 0 | C | 1 | 143 | 51200
+FBPIN | 4 | S_MC | 1 | NULL | 0 | S | 1 | 142 | 49152
+
+FB_INSTANCE | FOOBAR2_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR3_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR4_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR5_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR6_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR7_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR8_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR9_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR10_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR11_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR12_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR13_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR14_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR15_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | FOOBAR16_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR17_ | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR1_ | FOOBAR1__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR2_ | FOOBAR2__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR3_ | FOOBAR3__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR4_ | FOOBAR4__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR5_ | FOOBAR5__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR6_ | FOOBAR6__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR7_ | FOOBAR7__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR8_ | FOOBAR8__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR9_ | FOOBAR9__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR10_ | FOOBAR10__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR11_ | FOOBAR11__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR12_ | FOOBAR12__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR13_ | FOOBAR13__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR14_ | FOOBAR14__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR15_ | FOOBAR15__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR16_ | FOOBAR16__ctinst | Sumador_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+IOSTD | LVCMOS18
+C | LVCMOS18
+S | LVCMOS18
+
+

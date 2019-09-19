@@ -1,0 +1,15 @@
+V3 6
+FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.vhd" 2019/09/19.14:54:18 P.20131013
+EN work/Comparador 1568922862 \
+      FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Comparador/Behavioral 1568922863 \
+      FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.vhd" \
+      EN work/Comparador 1568922862
+FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" 2019/09/19.14:15:15 P.20131013
+EN work/Sumador 1568922059 \
+      FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Sumador/Behavioral 1568922060 \
+      FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" \
+      EN work/Sumador 1568922059

@@ -1,0 +1,4 @@
+AR sumador behavioral "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" sub00/vhpl01 1568922060
+AR comparador behavioral "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.vhd" sub00/vhpl03 1568922863
+EN comparador NULL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.vhd" sub00/vhpl02 1568922862
+EN sumador NULL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" sub00/vhpl00 1568922059

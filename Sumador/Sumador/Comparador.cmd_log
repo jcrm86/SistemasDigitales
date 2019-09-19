@@ -1,0 +1,18 @@
+vhdtdtfi -lib work Comparador.vhd -prj Sumador -o Comparador.spl -module Comparador -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xbr Comparador.spl {C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.sym} 
+vhdtdtfi -lib work Comparador.vhd -prj Sumador -o Comparador.spl -module Comparador -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xbr Comparador.spl {C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.sym} 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Comparador.ngc" Comparador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Comparador.ngd 
+tsim -intstyle ise Comparador Comparador.nga 
+hprep6 -s IEEE1149 -i Comparador 
+vhdtdtfi -lib work Comparador.vhd -prj Sumador -o Comparador.spl -module Comparador -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family xbr Comparador.spl {C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.sym} 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Comparador.ngc" Comparador.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Comparador.ngd 
+tsim -intstyle ise Comparador Comparador.nga 
+hprep6 -s IEEE1149 -i Comparador 
