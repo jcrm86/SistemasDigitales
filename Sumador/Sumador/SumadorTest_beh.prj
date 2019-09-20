@@ -1,0 +1,3 @@
+vhdl work "Sumador.vhd"
+vhdl work "Sumador4Bits.vhd"
+vhdl work "SumadorTest.vhd"

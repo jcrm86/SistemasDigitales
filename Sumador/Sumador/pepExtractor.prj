@@ -1,1 +1,2 @@
-work	"Comparador.vhd"
+work	"Sumador.vhd"
+work	"Sumador4Bits.vhd"

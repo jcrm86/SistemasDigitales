@@ -42,8 +42,8 @@ architecture Behavioral of Sumador is
 begin
 
 --Descripcion por comportamiento
-S<='0';
-C<='0';
+S<= (Co xor A xor B);
+C<= (Co and (A and B)) or (A and B);
 
 
 

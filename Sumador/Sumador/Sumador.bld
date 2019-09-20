@@ -27,10 +27,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 4402944 kilobytes
+Total memory usage is 4402948 kilobytes
 
 Writing NGD file "Sumador.ngd" ...
-Total REAL time to NGDBUILD completion:  13 sec
-Total CPU time to NGDBUILD completion:   11 sec
+Total REAL time to NGDBUILD completion:  10 sec
+Total CPU time to NGDBUILD completion:   7 sec
 
 Writing NGDBUILD log file "Sumador.bld"...

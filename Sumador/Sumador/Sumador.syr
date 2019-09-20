@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.35 secs
+Total CPU time to Xst completion: 0.22 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.35 secs
+Total CPU time to Xst completion: 0.22 secs
  
 --> Reading design: Sumador.prj
 
@@ -99,16 +99,17 @@ Performing bidirectional port resolution...
 
 Synthesizing Unit <Sumador>.
     Related source file is "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd".
-WARNING:Xst:647 - Input <Co> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <A> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <B> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit xor3 for signal <S>.
 Unit <Sumador> synthesized.
 
 
 =========================================================================
 HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# Xors                                                 : 1
+ 1-bit xor3                                            : 1
+
 =========================================================================
 
 =========================================================================
@@ -119,7 +120,10 @@ Found no macro
 =========================================================================
 Advanced HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# Xors                                                 : 1
+ 1-bit xor3                                            : 1
+
 =========================================================================
 
 =========================================================================
@@ -158,21 +162,23 @@ Design Statistics
 # IOs                              : 5
 
 Cell Usage :
-# BELS                             : 1
-#      GND                         : 1
-# IO Buffers                       : 2
+# BELS                             : 3
+#      AND2                        : 1
+#      XOR2                        : 2
+# IO Buffers                       : 5
+#      IBUF                        : 3
 #      OBUF                        : 2
 =========================================================================
 
 
-Total REAL time to Xst completion: 16.00 secs
-Total CPU time to Xst completion: 15.86 secs
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.25 secs
  
 --> 
 
-Total memory usage is 4533628 kilobytes
+Total memory usage is 4533632 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    3 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

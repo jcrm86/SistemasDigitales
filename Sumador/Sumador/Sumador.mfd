@@ -1,16 +1,23 @@
 MDF Database:  version 1.0
 MDF_INFO | Sumador | XC2C256-6-TQ144
-MACROCELL | 0 | 2 | C_MC
+MACROCELL | 0 | 3 | C_MC
 ATTRIBUTES | 1074004738 | 0
-INPUTS | 0
+INPUTS | 2 | A  | B
+INPUTP | 2 | 214 | 213
 EQ | 1 | 
-   C = Gnd;	// (0 pt, 0 inp)
+   C = A & B;	// (1 pt, 2 inp)
 
-MACROCELL | 0 | 3 | S_MC
+MACROCELL | 0 | 2 | S_MC
 ATTRIBUTES | 1074004738 | 0
-INPUTS | 0
-EQ | 1 | 
-   S = Gnd;	// (0 pt, 0 inp)
+INPUTS | 3 | A  | B  | Co
+INPUTP | 3 | 214 | 213 | 212
+EQ | 3 | 
+   S = A
+	$ B & !Co
+	# !B & Co;	// (3 pt, 3 inp)
 
-PIN | C | 536871040 | 0 | LVCMOS18 | 218
-PIN | S | 536871040 | 0 | LVCMOS18 | 217
+PIN | A | 64 | 16 | LVCMOS18 | 214 | 2 | 0 | 3 | 0 | 2
+PIN | B | 64 | 16 | LVCMOS18 | 213 | 2 | 0 | 3 | 0 | 2
+PIN | Co | 64 | 16 | LVCMOS18 | 212 | 1 | 0 | 2
+PIN | C | 536871040 | 0 | LVCMOS18 | 217
+PIN | S | 536871040 | 0 | LVCMOS18 | 218

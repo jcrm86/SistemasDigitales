@@ -15,4 +15,4 @@
   sr     (SLOW|FAST|slow|fast) "SLOW"
   dir    (BIDIR|bidir|INPUT|input|OUTPUT|output) "BIDIR">
 ]>
-<ibis><part arch="xbr" device="XC2C256" pkg="TQ144" spg="-6"/><pin dir="output" iostd="LVCMOS18" nm="C" no="143" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="S" no="142" sr="fast"/></ibis>
+<ibis><part arch="xbr" device="XC2C256" pkg="TQ144" spg="-6"/><pin dir="input" iostd="LVCMOS18" nm="A" no="140"/><pin dir="input" iostd="LVCMOS18" nm="B" no="139"/><pin dir="input" iostd="LVCMOS18" nm="Co" no="138"/><pin dir="output" iostd="LVCMOS18" nm="C" no="142" sr="fast"/><pin dir="output" iostd="LVCMOS18" nm="S" no="143" sr="fast"/></ibis>

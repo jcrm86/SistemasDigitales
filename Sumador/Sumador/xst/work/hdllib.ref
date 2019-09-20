@@ -1,4 +1,6 @@
-AR sumador behavioral "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" sub00/vhpl01 1568922060
+AR sumador4bits behavioral "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.vhd" sub00/vhpl05 1568939820
+AR sumador behavioral "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" sub00/vhpl01 1568939818
 AR comparador behavioral "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.vhd" sub00/vhpl03 1568922863
 EN comparador NULL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.vhd" sub00/vhpl02 1568922862
-EN sumador NULL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" sub00/vhpl00 1568922059
+EN sumador4bits NULL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.vhd" sub00/vhpl04 1568939819
+EN sumador NULL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" sub00/vhpl00 1568939817

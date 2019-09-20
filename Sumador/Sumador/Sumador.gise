@@ -30,29 +30,21 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="Comparador.gyd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="Comparador.jed"/>
     <file xil_pn:fileType="FILE_JHD" xil_pn:name="Comparador.jhd"/>
-    <file xil_pn:fileType="FILE_LOG" xil_pn:name="Comparador.log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Comparador.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="Comparador.mfd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="Comparador.nga"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Comparador.ngc"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Comparador.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Comparador.ngr"/>
-    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Comparador.pad"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="Comparador.pnx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Comparador.prj"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Comparador.rpt"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="Comparador.spl"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Comparador.stx"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Comparador.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Comparador.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="Comparador.vm6"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Comparador.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Comparador.xst"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Comparador_build.xml"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Comparador_envsettings.html"/>
-    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="Comparador_html"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Comparador_ngdbuild.xrpt"/>
-    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Comparador_pad.csv"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Comparador_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Comparador_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Comparador_xst.xrpt"/>
@@ -76,6 +68,40 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Sumador.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="Sumador.vm6"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Sumador.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Sumador4Bits.bld"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CHK" xil_pn:name="Sumador4Bits.chk"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Sumador4Bits.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CXT" xil_pn:name="Sumador4Bits.cxt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="Sumador4Bits.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="Sumador4Bits.jed"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="Sumador4Bits.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Sumador4Bits.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="Sumador4Bits.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="Sumador4Bits.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Sumador4Bits.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Sumador4Bits.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Sumador4Bits.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Sumador4Bits.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="Sumador4Bits.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sumador4Bits.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Sumador4Bits.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sumador4Bits.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Sumador4Bits.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="Sumador4Bits.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Sumador4Bits.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Sumador4Bits.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sumador4Bits_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Sumador4Bits_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sumador4Bits_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="Sumador4Bits_html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Sumador4Bits_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Sumador4Bits_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Sumador4Bits_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Sumador4Bits_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sumador4Bits_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sumador4Bits_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Sumador4Bits_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SumadorTest_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sumador_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sumador_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sumador_vhdl.prj"/>
@@ -83,81 +109,127 @@
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1568939143" xil_pn:name="TRANEXT_compLibraries_CPLD" xil_pn:prop_ck="635986081690273460" xil_pn:start_ts="1568939142">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568939512" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1568939512">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568939751" xil_pn:in_ck="8346150026195917140" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1568939750">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Comparador.vhd"/>
+      <outfile xil_pn:name="Sumador.vhd"/>
+      <outfile xil_pn:name="Sumador4Bits.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1568939751" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3857635109140112287" xil_pn:start_ts="1568939751">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1568939751" xil_pn:in_ck="8346150026195917140" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1568939751">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Comparador.vhd"/>
+      <outfile xil_pn:name="Sumador.vhd"/>
+      <outfile xil_pn:name="Sumador4Bits.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1568939757" xil_pn:in_ck="8346150026195917140" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8005105759493420392" xil_pn:start_ts="1568939751">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Sumador4Bits_beh.prj"/>
+      <outfile xil_pn:name="Sumador4Bits_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1568939879" xil_pn:in_ck="1822842560365137872" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1978537659010085691" xil_pn:start_ts="1568939878">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Sumador4Bits_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
     <transform xil_pn:end_ts="1568919114" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1568919114">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1568922153" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8732896085751406554" xil_pn:start_ts="1568922153">
+    <transform xil_pn:end_ts="1568939814" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4559086729660952223" xil_pn:start_ts="1568939814">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1568922875" xil_pn:in_ck="-6953465808215800957" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="1334574151431347336" xil_pn:start_ts="1568922860">
+    <transform xil_pn:end_ts="1568939828" xil_pn:in_ck="8346150026195917140" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="5081336082232084097" xil_pn:start_ts="1568939814">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name=".lso"/>
-      <outfile xil_pn:name="Comparador.jhd"/>
-      <outfile xil_pn:name="Comparador.lso"/>
-      <outfile xil_pn:name="Comparador.ngc"/>
-      <outfile xil_pn:name="Comparador.ngr"/>
-      <outfile xil_pn:name="Comparador.prj"/>
-      <outfile xil_pn:name="Comparador.stx"/>
-      <outfile xil_pn:name="Comparador.syr"/>
-      <outfile xil_pn:name="Comparador.xst"/>
-      <outfile xil_pn:name="Comparador_vhdl.prj"/>
-      <outfile xil_pn:name="Comparador_xst.xrpt"/>
+      <outfile xil_pn:name="Sumador.ngr"/>
+      <outfile xil_pn:name="Sumador4Bits.lso"/>
+      <outfile xil_pn:name="Sumador4Bits.ngc"/>
+      <outfile xil_pn:name="Sumador4Bits.ngr"/>
+      <outfile xil_pn:name="Sumador4Bits.prj"/>
+      <outfile xil_pn:name="Sumador4Bits.stx"/>
+      <outfile xil_pn:name="Sumador4Bits.syr"/>
+      <outfile xil_pn:name="Sumador4Bits.xst"/>
+      <outfile xil_pn:name="Sumador4Bits_beh.prj"/>
+      <outfile xil_pn:name="Sumador4Bits_vhdl.prj"/>
+      <outfile xil_pn:name="Sumador4Bits_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1568922411" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-916541213031368320" xil_pn:start_ts="1568922411">
+    <transform xil_pn:end_ts="1568938948" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-104759121492127975" xil_pn:start_ts="1568938948">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1568922888" xil_pn:in_ck="-6272871608241312401" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="2820029809837737375" xil_pn:start_ts="1568922875">
+    <transform xil_pn:end_ts="1568939839" xil_pn:in_ck="2809362887930296598" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="2820029809837737375" xil_pn:start_ts="1568939828">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Comparador.bld"/>
-      <outfile xil_pn:name="Comparador.ngd"/>
-      <outfile xil_pn:name="Comparador_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="Sumador4Bits.bld"/>
+      <outfile xil_pn:name="Sumador4Bits.ngd"/>
+      <outfile xil_pn:name="Sumador4Bits_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1568922904" xil_pn:in_ck="-6222329501727585583" xil_pn:name="TRANEXT_vm6File_xbr" xil_pn:prop_ck="-2728107730412533187" xil_pn:start_ts="1568922888">
+    <transform xil_pn:end_ts="1568939861" xil_pn:in_ck="-3376180626939569543" xil_pn:name="TRANEXT_vm6File_xbr" xil_pn:prop_ck="-3739689457152998929" xil_pn:start_ts="1568939839">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Sumador4Bits.chk"/>
+      <outfile xil_pn:name="Sumador4Bits.cxt"/>
+      <outfile xil_pn:name="Sumador4Bits.gyd"/>
+      <outfile xil_pn:name="Sumador4Bits.log"/>
+      <outfile xil_pn:name="Sumador4Bits.mfd"/>
+      <outfile xil_pn:name="Sumador4Bits.nga"/>
+      <outfile xil_pn:name="Sumador4Bits.pad"/>
+      <outfile xil_pn:name="Sumador4Bits.pnx"/>
+      <outfile xil_pn:name="Sumador4Bits.rpt"/>
+      <outfile xil_pn:name="Sumador4Bits.vm6"/>
+      <outfile xil_pn:name="Sumador4Bits.xml"/>
+      <outfile xil_pn:name="Sumador4Bits_build.xml"/>
+      <outfile xil_pn:name="Sumador4Bits_html"/>
+      <outfile xil_pn:name="Sumador4Bits_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1568939865" xil_pn:in_ck="-8310509368645640615" xil_pn:name="TRANEXT_crtProg_xbr" xil_pn:prop_ck="5245363024343" xil_pn:start_ts="1568939861">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Sumador4Bits.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1568939861" xil_pn:in_ck="-8310509368645640615" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1568939852">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Comparador.chk"/>
-      <outfile xil_pn:name="Comparador.cxt"/>
-      <outfile xil_pn:name="Comparador.gyd"/>
-      <outfile xil_pn:name="Comparador.log"/>
-      <outfile xil_pn:name="Comparador.mfd"/>
-      <outfile xil_pn:name="Comparador.nga"/>
-      <outfile xil_pn:name="Comparador.pad"/>
-      <outfile xil_pn:name="Comparador.pnx"/>
-      <outfile xil_pn:name="Comparador.rpt"/>
-      <outfile xil_pn:name="Comparador.vm6"/>
-      <outfile xil_pn:name="Comparador.xml"/>
-      <outfile xil_pn:name="Comparador_build.xml"/>
-      <outfile xil_pn:name="Comparador_html"/>
-      <outfile xil_pn:name="Comparador_pad.csv"/>
-    </transform>
-    <transform xil_pn:end_ts="1568922908" xil_pn:in_ck="-938955133082309615" xil_pn:name="TRANEXT_crtProg_xbr" xil_pn:prop_ck="5245363024343" xil_pn:start_ts="1568922904">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Comparador.jed"/>
-    </transform>
-    <transform xil_pn:name="TRAN_timRpt">
-      <status xil_pn:value="AbortedRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
     </transform>
   </transforms>
 
