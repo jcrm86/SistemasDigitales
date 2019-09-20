@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Comparador/ComparadorPrueba.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Comparador/ComparadorPrueba.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Comparador/ComparadorPrueba.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Comparador/ComparadorPrueba.syr" 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Comparador/ComparadorPrueba.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Comparador/ComparadorPrueba.syr" 

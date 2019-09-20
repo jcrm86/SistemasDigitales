@@ -3,7 +3,7 @@
  
 cpldfit:  version P.20131013                        Xilinx Inc.
                                   Fitter Report
-Design Name: Sumador4Bits                        Date:  9-19-2019,  7:37PM
+Design Name: Sumador4Bits                        Date:  9-20-2019,  8:11AM
 Device Used: XC2C256-6-TQ144
 Fitting Status: Successful
 
@@ -11,13 +11,13 @@ Fitting Status: Successful
 
 Macrocells     Product Terms    Function Block   Registers      Pins           
 Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot       
-5  /256 (  2%) 16  /896  (  2%) 9   /640  (  1%) 0  /256 (  0%) 14 /118 ( 12%)
+8  /256 (  3%) 26  /896  (  3%) 12  /640  (  2%) 0  /256 (  0%) 14 /118 ( 12%)
 
 ** Function Block Resources **
 
 Function Mcells   FB Inps  Pterms   IO       CTC      CTR      CTS      CTE     
 Block    Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot
-FB1       5/16      9/40    16/56     5/ 6    0/1      0/1      0/1      0/1
+FB1       8/16     12/40    26/56     5/ 6    0/1      0/1      0/1      0/1
 FB2       0/16      0/40     0/56     0/ 8    0/1      0/1      0/1      0/1
 FB3       0/16      0/40     0/56     0/ 6    0/1      0/1      0/1      0/1
 FB4       0/16      0/40     0/56     0/ 8    0/1      0/1      0/1      0/1
@@ -34,7 +34,7 @@ FB14      0/16      0/40     0/56     0/ 8    0/1      0/1      0/1      0/1
 FB15      0/16      0/40     0/56     0/ 7    0/1      0/1      0/1      0/1
 FB16      0/16      0/40     0/56     0/ 7    0/1      0/1      0/1      0/1
          -----    -------  -------   -----    ---      ---      ---      ---
-Total     5/256     9/640   16/896    5/118   0/16     0/16     0/16     0/16
+Total     8/256    12/640   26/896    5/118   0/16     0/16     0/16     0/16
 
 CTC - Control Term Clock
 CTR - Control Term Reset
@@ -74,11 +74,19 @@ WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
 
 Signal              Total Total Bank Loc     Pin   Pin       Pin     I/O      I/O       Slew Reg     Reg Init
 Name                Pts   Inps               No.   Type      Use     STD      Style     Rate Use     State
-S2                  4     4     2    FB1_3   143   GSR/I/O   O       LVCMOS18           FAST         
-S1                  3     3     2    FB1_4   142   I/O       O       LVCMOS18           FAST         
-S3                  4     4     2    FB1_6   140   I/O       O       LVCMOS18           FAST         
-S4                  4     4     2    FB1_12  139   I/O       O       LVCMOS18           FAST         
-C                   1     2     2    FB1_13  138   I/O       O       LVCMOS18           FAST         
+S3                  5     6     2    FB1_3   143   GSR/I/O   O       LVCMOS18           FAST         
+S2                  2     2     2    FB1_4   142   I/O       O       LVCMOS18           FAST         
+S4                  3     3     2    FB1_6   140   I/O       O       LVCMOS18           FAST         
+C                   3     3     2    FB1_12  139   I/O       O       LVCMOS18           FAST         
+S1                  3     4     2    FB1_13  138   I/O       O       LVCMOS18           FAST         
+
+** 3 Buried Nodes **
+
+Signal              Total Total Loc     Reg     Reg Init
+Name                Pts   Inps          Use     State
+N_PZ_26             2     2     FB1_11          
+N_PZ_30             3     3     FB1_15          
+C3                  5     5     FB1_16          
 
 ** 9 Inputs **
 
@@ -120,40 +128,44 @@ Pin Type/Use - I  - Input             GCK - Global clock
 Pin No.      - ~  - User Assigned
 *********************************** FB1  ***********************************
 This function block is part of I/O Bank number:               2
-Number of function block inputs used/remaining:               9/31
+Number of function block inputs used/remaining:               12/28
 Number of function block control terms used/remaining:        0/4
-Number of PLA product terms used/remaining:                   16/40
+Number of PLA product terms used/remaining:                   26/30
 Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
 Name                          Pt            No.  Type    Use   
 (unused)                      0     FB1_1        (b)           
 (unused)                      0     FB1_2        (b)           
-S2                            4     FB1_3   143  GSR/I/O O                 
-S1                            3     FB1_4   142  I/O     O                 
+S3                            5     FB1_3   143  GSR/I/O O                 
+S2                            2     FB1_4   142  I/O     O                 
 (unused)                      0     FB1_5        (b)           
-S3                            4     FB1_6   140  I/O     O                 
+S4                            3     FB1_6   140  I/O     O                 
 (unused)                      0     FB1_7        (b)           
 (unused)                      0     FB1_8        (b)           
 (unused)                      0     FB1_9        (b)           
 (unused)                      0     FB1_10       (b)           
-(unused)                      0     FB1_11       (b)           
-S4                            4     FB1_12  139  I/O     O                 
-C                             1     FB1_13  138  I/O     O                 
+N_PZ_26                       2     FB1_11       (b)     (b)               
+C                             3     FB1_12  139  I/O     O                 
+S1                            3     FB1_13  138  I/O     O                 
 (unused)                      0     FB1_14  137  I/O     I     
-(unused)                      0     FB1_15       (b)           
-(unused)                      0     FB1_16       (b)           
+N_PZ_30                       3     FB1_15       (b)     (b)               
+C3                            5     FB1_16       (b)     (b)               
 
 Signals Used by Logic in Function Block
-  1: A1                 4: A4                 7: B3 
-  2: A2                 5: B1                 8: B4 
-  3: A3                 6: B2                 9: Co 
+  1: A1                 5: B1                 9: C3 
+  2: A2                 6: B2                10: Co 
+  3: A3                 7: B3                11: N_PZ_26 
+  4: A4                 8: B4                12: N_PZ_30 
 
 Signal                     1         2         3         4 FB      
 Name             0----+----0----+----0----+----0----+----0 Inputs  
-S2                XX..XX.................................. 4       
-S1                X...X...X............................... 3       
-S3                .XX..XX................................. 4       
-S4                ..XX..XX................................ 4       
-C                 ...X...X................................ 2       
+S3                .XX...X.X.XX............................ 6       
+S2                ..........XX............................ 2       
+S4                ...X...XX............................... 3       
+N_PZ_26           .X...X.................................. 2       
+C                 ...X...XX............................... 3       
+S1                X...X....X.X............................ 4       
+N_PZ_30           X...X....X.............................. 3       
+C3                .XX...X...XX............................ 5       
                  0----+----1----+----2----+----3----+----4
                            0         0         0         0
 *********************************** FB2  ***********************************
@@ -506,30 +518,46 @@ Name                          Pt            No.  Type    Use
 ********** Mapped Logic **********
 
 
-C <= (A4 AND B4);
+C3 <= ((NOT B3 AND NOT A3)
+	OR (B3 AND NOT A3 AND NOT A2 AND N_PZ_26)
+	OR (B3 AND NOT A3 AND NOT N_PZ_26 AND NOT N_PZ_30)
+	OR (NOT B3 AND A3 AND NOT A2 AND N_PZ_26)
+	OR (NOT B3 AND A3 AND NOT N_PZ_26 AND NOT N_PZ_30));
 
 
-S1 <= B1
-	XOR ((A1 AND NOT Co)
-	OR (NOT A1 AND Co));
+C <= NOT (((NOT B4 AND C3)
+	OR (B4 AND C3 AND NOT A4)
+	OR (NOT B4 AND NOT C3 AND NOT A4)));
 
 
-S2 <= B2
-	XOR ((NOT B1 AND A2)
-	OR (NOT A1 AND A2)
-	OR (B1 AND A1 AND NOT A2));
+N_PZ_26 <= ((A2 AND B2)
+	OR (NOT A2 AND NOT B2));
 
 
-S3 <= B3
-	XOR ((NOT B2 AND A3)
-	OR (NOT A2 AND A3)
-	OR (B2 AND A2 AND NOT A3));
+N_PZ_30 <= ((Co AND B1)
+	OR (Co AND A1)
+	OR (B1 AND A1));
 
 
-S4 <= A4
-	XOR ((B4 AND NOT B3)
-	OR (B4 AND NOT A3)
-	OR (NOT B4 AND B3 AND A3));
+S1 <= NOT N_PZ_30
+	XOR ((N_PZ_30 AND Co AND B1 AND A1)
+	OR (NOT N_PZ_30 AND NOT Co AND NOT B1 AND NOT A1));
+
+
+S2 <= ((N_PZ_26 AND N_PZ_30)
+	OR (NOT N_PZ_26 AND NOT N_PZ_30));
+
+
+S3 <= C3
+	XOR ((C3 AND NOT B3 AND NOT A3 AND NOT A2 AND N_PZ_26)
+	OR (C3 AND NOT B3 AND NOT A3 AND NOT N_PZ_26 AND NOT N_PZ_30)
+	OR (NOT C3 AND B3 AND A3 AND A2 AND N_PZ_26)
+	OR (NOT C3 AND B3 AND A3 AND NOT N_PZ_26 AND N_PZ_30));
+
+
+S4 <= B4
+	XOR ((C3 AND A4)
+	OR (NOT C3 AND NOT A4));
 
 
 Register Legend:
@@ -611,12 +639,12 @@ No. Name                           No. Name
  63 TDI                             135 KPR                           
  64 KPR                             136 KPR                           
  65 TMS                             137 A1                            
- 66 KPR                             138 C                             
- 67 TCK                             139 S4                            
- 68 KPR                             140 S3                            
+ 66 KPR                             138 S1                            
+ 67 TCK                             139 C                             
+ 68 KPR                             140 S4                            
  69 KPR                             141 VCCIO-1.8                     
- 70 KPR                             142 S1                            
- 71 KPR                             143 S2                            
+ 70 KPR                             142 S2                            
+ 71 KPR                             143 S3                            
  72 GND                             144 GND                           
 
 

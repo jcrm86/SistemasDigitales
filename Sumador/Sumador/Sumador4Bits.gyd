@@ -10,20 +10,20 @@ B2 S:PIN6
 B3 S:PIN7
 B4 S:PIN9
 Co S:PIN10
-C S:PIN138
-S1 S:PIN142
-S2 S:PIN143
-S3 S:PIN140
-S4 S:PIN139
+C S:PIN139
+S1 S:PIN138
+S2 S:PIN142
+S3 S:PIN143
+S4 S:PIN140
 
 
 ;The remaining section of the .gyd file is for documentation purposes only.
 ;It shows where your internal equations were placed in the last successful fit.
 
-PARTITION FB1_3 S2 S1
-PARTITION FB1_6 S3
-PARTITION FB1_12 S4 C
-
+PARTITION FB1_3 S3 S2
+PARTITION FB1_6 S4
+PARTITION FB1_11 N_PZ_26 C S1
+PARTITION FB1_15 N_PZ_30 C3
 
 
 

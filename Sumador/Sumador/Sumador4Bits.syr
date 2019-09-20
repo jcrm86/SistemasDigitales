@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.27 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.27 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Reading design: Sumador4Bits.prj
 
@@ -177,8 +177,9 @@ Design Statistics
 # IOs                              : 14
 
 Cell Usage :
-# BELS                             : 12
-#      AND2                        : 4
+# BELS                             : 24
+#      AND2                        : 8
+#      OR2                         : 8
 #      XOR2                        : 8
 # IO Buffers                       : 14
 #      IBUF                        : 9
@@ -186,12 +187,12 @@ Cell Usage :
 =========================================================================
 
 
-Total REAL time to Xst completion: 10.00 secs
-Total CPU time to Xst completion: 10.02 secs
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.82 secs
  
 --> 
 
-Total memory usage is 4533652 kilobytes
+Total memory usage is 4533616 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

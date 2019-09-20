@@ -21,3 +21,9 @@ XSLTProcess Comparador_build.xml
 XSLTProcess Comparador_build.xml 
 XSLTProcess Comparador_build.xml 
 XSLTProcess Comparador_build.xml 
+XSLTProcess Comparador_build.xml 
+XSLTProcess Comparador_build.xml 
+XSLTProcess Comparador_build.xml 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.syr" 
+XSLTProcess Comparador_build.xml 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.syr" 

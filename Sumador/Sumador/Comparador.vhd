@@ -39,18 +39,18 @@ architecture Behavioral of Comparador is
 
 begin
 --Estilo funcional
---process
---if A=B then 
-	--C<=1;
-	--else
-	--C<=0;
---end if;
+process
+if A=B then 
+	C<=1;
+	else
+	C<=0;
+end if;
 
 --Estilo por diagrama de flujo
 --C <= '1' when (A = B) else '0';
 
 --Estilo
- C<= (not A and not B) or (A and B);
+ --C<= (not A and not B) or (A and B);
 
 end Behavioral;
 

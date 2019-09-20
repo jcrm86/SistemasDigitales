@@ -1,62 +1,98 @@
 MDF Database:  version 1.0
 MDF_INFO | Sumador4Bits | XC2C256-6-TQ144
-MACROCELL | 0 | 12 | C_MC
+MACROCELL | 0 | 11 | C_MC
 ATTRIBUTES | 1074004738 | 0
-INPUTS | 2 | A4  | B4
-INPUTP | 2 | 4 | 10
-EQ | 1 | 
-   C = A4 & B4;	// (1 pt, 2 inp)
-
-MACROCELL | 0 | 3 | S1_MC
-ATTRIBUTES | 1074004738 | 0
-INPUTS | 3 | B1  | A1  | Co
-INPUTP | 3 | 5 | 211 | 12
+INPUTS | 3 | B4  | C3  | A4
+INPUTMC | 1 | 0 | 15
+INPUTP | 2 | 10 | 4
 EQ | 3 | 
-   S1 = B1
-	$ A1 & !Co
-	# !A1 & Co;	// (3 pt, 3 inp)
+   !C = !B4 & C3
+	# B4 & C3 & !A4
+	# !B4 & !C3 & !A4;	// (3 pt, 3 inp)
 
-MACROCELL | 0 | 2 | S2_MC
+MACROCELL | 0 | 15 | C3_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 0 | 11 | 0 | 2 | 0 | 5
+INPUTS | 5 | B3  | A3  | A2  | N_PZ_26  | N_PZ_30
+INPUTMC | 2 | 0 | 10 | 0 | 14
+INPUTP | 3 | 8 | 3 | 1
+EQ | 5 | 
+   C3 = !B3 & !A3
+	# B3 & !A3 & !A2 & N_PZ_26
+	# B3 & !A3 & !N_PZ_26 & !N_PZ_30
+	# !B3 & A3 & !A2 & N_PZ_26
+	# !B3 & A3 & !N_PZ_26 & !N_PZ_30;	// (5 pt, 5 inp)
+
+MACROCELL | 0 | 10 | N_PZ_26_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 0 | 15 | 0 | 3 | 0 | 2
+INPUTS | 2 | A2  | B2
+INPUTP | 2 | 1 | 7
+EQ | 2 | 
+   N_PZ_26 = A2 & B2
+	# !A2 & !B2;	// (2 pt, 2 inp)
+
+MACROCELL | 0 | 14 | N_PZ_30_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 4 | 0 | 15 | 0 | 12 | 0 | 3 | 0 | 2
+INPUTS | 3 | Co  | B1  | A1
+INPUTP | 3 | 12 | 5 | 211
+EQ | 3 | 
+   N_PZ_30 = Co & B1
+	# Co & A1
+	# B1 & A1;	// (3 pt, 3 inp)
+
+MACROCELL | 0 | 12 | S1_MC
 ATTRIBUTES | 1074004738 | 0
-INPUTS | 4 | B2  | B1  | A2  | A1
-INPUTP | 4 | 7 | 5 | 1 | 211
-EQ | 4 | 
-   S2 = B2
-	$ !B1 & A2
-	# !A1 & A2
-	# B1 & A1 & !A2;	// (4 pt, 4 inp)
+INPUTS | 4 | N_PZ_30  | Co  | B1  | A1
+INPUTMC | 1 | 0 | 14
+INPUTP | 3 | 12 | 5 | 211
+EQ | 3 | 
+   S1 = !N_PZ_30
+	$ N_PZ_30 & Co & B1 & A1
+	# !N_PZ_30 & !Co & !B1 & !A1;	// (3 pt, 4 inp)
 
-MACROCELL | 0 | 5 | S3_MC
+MACROCELL | 0 | 3 | S2_MC
 ATTRIBUTES | 1074004738 | 0
-INPUTS | 4 | B3  | B2  | A3  | A2
-INPUTP | 4 | 8 | 7 | 3 | 1
-EQ | 4 | 
-   S3 = B3
-	$ !B2 & A3
-	# !A2 & A3
-	# B2 & A2 & !A3;	// (4 pt, 4 inp)
+INPUTS | 2 | N_PZ_26  | N_PZ_30
+INPUTMC | 2 | 0 | 10 | 0 | 14
+EQ | 2 | 
+   S2 = N_PZ_26 & N_PZ_30
+	# !N_PZ_26 & !N_PZ_30;	// (2 pt, 2 inp)
 
-MACROCELL | 0 | 11 | S4_MC
+MACROCELL | 0 | 2 | S3_MC
 ATTRIBUTES | 1074004738 | 0
-INPUTS | 4 | A4  | B4  | B3  | A3
-INPUTP | 4 | 4 | 10 | 8 | 3
-EQ | 4 | 
-   S4 = A4
-	$ B4 & !B3
-	# B4 & !A3
-	# !B4 & B3 & A3;	// (4 pt, 4 inp)
+INPUTS | 6 | C3  | B3  | A3  | A2  | N_PZ_26  | N_PZ_30
+INPUTMC | 3 | 0 | 15 | 0 | 10 | 0 | 14
+INPUTP | 3 | 8 | 3 | 1
+EQ | 5 | 
+   S3 = C3
+	$ C3 & !B3 & !A3 & !A2 & N_PZ_26
+	# C3 & !B3 & !A3 & !N_PZ_26 & !N_PZ_30
+	# !C3 & B3 & A3 & A2 & N_PZ_26
+	# !C3 & B3 & A3 & !N_PZ_26 & N_PZ_30;	// (5 pt, 6 inp)
 
-PIN | A1 | 64 | 16 | LVCMOS18 | 211 | 2 | 0 | 3 | 0 | 2
-PIN | A2 | 64 | 16 | LVCMOS18 | 1 | 2 | 0 | 2 | 0 | 5
-PIN | A3 | 64 | 16 | LVCMOS18 | 3 | 2 | 0 | 5 | 0 | 11
-PIN | A4 | 64 | 16 | LVCMOS18 | 4 | 2 | 0 | 12 | 0 | 11
-PIN | B1 | 64 | 16 | LVCMOS18 | 5 | 2 | 0 | 3 | 0 | 2
-PIN | B2 | 64 | 16 | LVCMOS18 | 7 | 2 | 0 | 2 | 0 | 5
-PIN | B3 | 64 | 16 | LVCMOS18 | 8 | 2 | 0 | 5 | 0 | 11
-PIN | B4 | 64 | 16 | LVCMOS18 | 10 | 2 | 0 | 12 | 0 | 11
-PIN | Co | 64 | 16 | LVCMOS18 | 12 | 1 | 0 | 3
-PIN | C | 536871040 | 0 | LVCMOS18 | 212
-PIN | S1 | 536871040 | 0 | LVCMOS18 | 217
-PIN | S2 | 536871040 | 0 | LVCMOS18 | 218
-PIN | S3 | 536871040 | 0 | LVCMOS18 | 214
-PIN | S4 | 536871040 | 0 | LVCMOS18 | 213
+MACROCELL | 0 | 5 | S4_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 3 | B4  | C3  | A4
+INPUTMC | 1 | 0 | 15
+INPUTP | 2 | 10 | 4
+EQ | 3 | 
+   S4 = B4
+	$ C3 & A4
+	# !C3 & !A4;	// (3 pt, 3 inp)
+
+PIN | A1 | 64 | 16 | LVCMOS18 | 211 | 2 | 0 | 14 | 0 | 12
+PIN | A2 | 64 | 16 | LVCMOS18 | 1 | 3 | 0 | 10 | 0 | 15 | 0 | 2
+PIN | A3 | 64 | 16 | LVCMOS18 | 3 | 2 | 0 | 15 | 0 | 2
+PIN | A4 | 64 | 16 | LVCMOS18 | 4 | 2 | 0 | 11 | 0 | 5
+PIN | B1 | 64 | 16 | LVCMOS18 | 5 | 2 | 0 | 14 | 0 | 12
+PIN | B2 | 64 | 16 | LVCMOS18 | 7 | 1 | 0 | 10
+PIN | B3 | 64 | 16 | LVCMOS18 | 8 | 2 | 0 | 15 | 0 | 2
+PIN | B4 | 64 | 16 | LVCMOS18 | 10 | 2 | 0 | 11 | 0 | 5
+PIN | Co | 64 | 16 | LVCMOS18 | 12 | 2 | 0 | 14 | 0 | 12
+PIN | C | 536871040 | 0 | LVCMOS18 | 213
+PIN | S1 | 536871040 | 0 | LVCMOS18 | 212
+PIN | S2 | 536871040 | 0 | LVCMOS18 | 217
+PIN | S3 | 536871040 | 0 | LVCMOS18 | 218
+PIN | S4 | 536871040 | 0 | LVCMOS18 | 214

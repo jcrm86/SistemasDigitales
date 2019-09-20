@@ -6,17 +6,17 @@ EN work/Comparador 1568922862 \
 AR work/Comparador/Behavioral 1568922863 \
       FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Comparador.vhd" \
       EN work/Comparador 1568922862
-FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" 2019/09/19.18:48:27 P.20131013
-EN work/Sumador 1568939817 \
+FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" 2019/09/19.19:54:40 P.20131013
+EN work/Sumador 1568985198 \
       FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/Sumador/Behavioral 1568939818 \
+AR work/Sumador/Behavioral 1568985199 \
       FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador.vhd" \
-      EN work/Sumador 1568939817
+      EN work/Sumador 1568985198
 FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.vhd" 2019/09/19.19:22:07 P.20131013
-EN work/Sumador4Bits 1568939819 \
+EN work/Sumador4Bits 1568985200 \
       FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/Sumador4Bits/Behavioral 1568939820 \
+AR work/Sumador4Bits/Behavioral 1568985201 \
       FL "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.vhd" \
-      EN work/Sumador4Bits 1568939819 CP Sumador
+      EN work/Sumador4Bits 1568985200 CP Sumador

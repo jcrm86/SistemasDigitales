@@ -14,3 +14,24 @@ cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -
 tsim -intstyle ise Sumador4Bits Sumador4Bits.nga 
 taengine -intstyle ise -f Sumador4Bits -w --format html1 -l Sumador4Bits_html/tim/timing_report.htm 
 hprep6 -s IEEE1149 -i Sumador4Bits 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador4Bits.ngc" Sumador4Bits.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador4Bits.ngd 
+tsim -intstyle ise Sumador4Bits Sumador4Bits.nga 
+hprep6 -s IEEE1149 -i Sumador4Bits 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador4Bits.ngc" Sumador4Bits.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador4Bits.ngd 
+tsim -intstyle ise Sumador4Bits Sumador4Bits.nga 
+hprep6 -s IEEE1149 -i Sumador4Bits 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador4Bits.ngc" Sumador4Bits.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador4Bits.ngd 
+tsim -intstyle ise Sumador4Bits Sumador4Bits.nga 
+hprep6 -s IEEE1149 -i Sumador4Bits 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 "Sumador4Bits.ngc" Sumador4Bits.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 Sumador4Bits.ngd 
+tsim -intstyle ise Sumador4Bits Sumador4Bits.nga 
+hprep6 -s IEEE1149 -i Sumador4Bits 
+xst -intstyle ise -ifn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.xst" -ofn "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits.syr" 

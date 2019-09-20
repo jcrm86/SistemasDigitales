@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   19:33:12 09/19/2019
+-- Create Date:   19:42:14 09/19/2019
 -- Design Name:   
 -- Module Name:   C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/SumadorTest.vhd
 -- Project Name:  Sumador
@@ -60,14 +60,14 @@ ARCHITECTURE behavior OF SumadorTest IS
     
 
    --Inputs
-   signal A1 : std_logic := '0';
+   signal A1 : std_logic := '1';
    signal B1 : std_logic := '1';
-   signal A2 : std_logic := '0';
+   signal A2 : std_logic := '1';
    signal B2 : std_logic := '0';
-   signal A3 : std_logic := '0';
+   signal A3 : std_logic := '1';
    signal B3 : std_logic := '1';
-   signal A4 : std_logic := '0';
-   signal B4 : std_logic := '1';
+   signal A4 : std_logic := '1';
+   signal B4 : std_logic := '0';
    signal Co : std_logic := '0';
 
  	--Outputs
@@ -79,7 +79,7 @@ ARCHITECTURE behavior OF SumadorTest IS
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
-   constant <clock>_period : time := 10 ns;
+  -- constant <clock>_period : time := 10 ns;
  
 BEGIN
  
@@ -102,13 +102,13 @@ BEGIN
         );
 
    -- Clock process definitions
-   <clock>_process :process
-   begin
-		<clock> <= '0';
-		wait for <clock>_period/2;
-		<clock> <= '1';
-		wait for <clock>_period/2;
-   end process;
+  -- <clock>_process :process
+   --begin
+		--<clock> <= '0';
+		--wait for <clock>_period/2;
+		--<clock> <= '1';
+		--wait for <clock>_period/2;
+  -- end process;
  
 
    -- Stimulus process
@@ -117,7 +117,7 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
 
-      wait for <clock>_period*10;
+      --wait for <clock>_period*10;
 
       -- insert stimulus here 
 

@@ -43,7 +43,7 @@ begin
 
 --Descripcion por comportamiento
 S<= (Co xor A xor B);
-C<= (Co and (A and B)) or (A and B);
+C<= (Co and (A or B)) or (A and B);
 
 
 

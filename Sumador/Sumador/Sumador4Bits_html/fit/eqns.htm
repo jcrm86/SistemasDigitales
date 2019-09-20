@@ -3,9 +3,9 @@
 <script src="paths.js"></script><script src="eqns.js"></script><script>
       var design = "Sumador4Bits";
       var device = "XC2C256";
-      signals = new Array("C","S1","S2","S3","S4");
-      sigNegs = new Array("OFF","OFF","OFF","OFF","OFF");
-      sigTypes = new Array("","","","","");
+      signals = new Array("C","C3","N_PZ_26","N_PZ_30","S1","S2","S3","S4");
+      sigNegs = new Array("ON","OFF","OFF","OFF","OFF","OFF","OFF","OFF");
+      sigTypes = new Array("","","","","","","","");
 
       
            iostyle["A1"]=new Array("KPR");
@@ -26,55 +26,79 @@
         
            iostyle["Co"]=new Array("KPR");
         
-            pterms["FB1_0"]=new Array("/A1","Co");
+            pterms["FB1_0"]=new Array("/B4","C3");
           
-            pterms["FB1_1"]=new Array("A1","/Co");
+            pterms["FB1_1"]=new Array("B4","C3","/A4");
           
-            pterms["FB1_2"]=new Array("/B1","A2");
+            pterms["FB1_2"]=new Array("/B4","/C3","/A4");
           
-            pterms["FB1_3"]=new Array("/A1","A2");
+            pterms["FB1_3"]=new Array("N_PZ_30","Co","B1","A1");
           
-            pterms["FB1_4"]=new Array("B1","A1","/A2");
+            pterms["FB1_4"]=new Array("/N_PZ_30","/Co","/B1","/A1");
           
-            pterms["FB1_5"]=new Array("/B2","A3");
+            pterms["FB1_5"]=new Array("N_PZ_26","N_PZ_30");
           
-            pterms["FB1_6"]=new Array("/A2","A3");
+            pterms["FB1_6"]=new Array("/N_PZ_26","/N_PZ_30");
           
-            pterms["FB1_7"]=new Array("B2","A2","/A3");
+            pterms["FB1_7"]=new Array("C3","/B3","/A3","/A2","N_PZ_26");
           
-            pterms["FB1_8"]=new Array("B4","/B3");
+            pterms["FB1_8"]=new Array("C3","/B3","/A3","/N_PZ_26","/N_PZ_30");
           
-            pterms["FB1_9"]=new Array("B4","/A3");
+            pterms["FB1_9"]=new Array("/C3","B3","A3","A2","N_PZ_26");
           
-            pterms["FB1_10"]=new Array("/B4","B3","A3");
+            pterms["FB1_10"]=new Array("/C3","B3","A3","/N_PZ_26","N_PZ_30");
           
-            pterms["FB1_16"]=new Array("B2");
+            pterms["FB1_11"]=new Array("C3","A4");
           
-            pterms["FB1_19"]=new Array("B1");
+            pterms["FB1_12"]=new Array("/C3","/A4");
           
-            pterms["FB1_25"]=new Array("B3");
+            pterms["FB1_13"]=new Array("/B3","/A3");
           
-            pterms["FB1_43"]=new Array("A4");
+            pterms["FB1_14"]=new Array("/B3","A3","/A2","N_PZ_26");
           
-            pterms["FB1_46"]=new Array("A4","B4");
+            pterms["FB1_15"]=new Array("B3","/A3","/A2","N_PZ_26");
           
-          d1["S2"]=new Array("FB1_16");
+            pterms["FB1_16"]=new Array("C3");
           
-          d2["S2"]=new Array("FB1_2","FB1_3","FB1_4");
+            pterms["FB1_17"]=new Array("/B3","A3","/N_PZ_26","/N_PZ_30");
           
-          d1["S1"]=new Array("FB1_19");
+            pterms["FB1_18"]=new Array("B3","/A3","/N_PZ_26","/N_PZ_30");
           
-          d2["S1"]=new Array("FB1_1","FB1_0");
+            pterms["FB1_19"]=new Array("Co","B1");
           
-          d1["S3"]=new Array("FB1_25");
+            pterms["FB1_20"]=new Array("Co","A1");
           
-          d2["S3"]=new Array("FB1_5","FB1_6","FB1_7");
+            pterms["FB1_21"]=new Array("B1","A1");
           
-          d1["S4"]=new Array("FB1_43");
+            pterms["FB1_22"]=new Array("A2","B2");
           
-          d2["S4"]=new Array("FB1_8","FB1_9","FB1_10");
+            pterms["FB1_23"]=new Array("/A2","/B2");
           
-          d1["C"]=new Array("FB1_46");
+            pterms["FB1_25"]=new Array("B4");
+          
+            pterms["FB1_46"]=new Array("/N_PZ_30");
+          
+          d1["S3"]=new Array("FB1_16");
+          
+          d2["S3"]=new Array("FB1_7","FB1_8","FB1_9","FB1_10");
+          
+          d2["S2"]=new Array("FB1_5","FB1_6");
+          
+          d1["S4"]=new Array("FB1_25");
+          
+          d2["S4"]=new Array("FB1_11","FB1_12");
+          
+          d2["N_PZ_26"]=new Array("FB1_22","FB1_23");
+          
+          d2["C"]=new Array("FB1_0","FB1_1","FB1_2");
+          
+          d1["S1"]=new Array("FB1_46");
+          
+          d2["S1"]=new Array("FB1_3","FB1_4");
+          
+          d2["N_PZ_30"]=new Array("FB1_19","FB1_20","FB1_21");
+          
+          d2["C3"]=new Array("FB1_13","FB1_15","FB1_18","FB1_14","FB1_17");
           
 
       uimSignals = new Array();

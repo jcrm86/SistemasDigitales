@@ -6,30 +6,46 @@
 ********** Mapped Logic **********
 </td></tr><tr><td>
 </td></tr><tr><td>
-C <= (A4 AND B4);
+C3 <= ((NOT B3 AND NOT A3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B3 AND NOT A3 AND NOT A2 AND N_PZ_26)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B3 AND NOT A3 AND NOT N_PZ_26 AND NOT N_PZ_30)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT B3 AND A3 AND NOT A2 AND N_PZ_26)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT B3 AND A3 AND NOT N_PZ_26 AND NOT N_PZ_30));
 </td></tr><tr><td>
 </td></tr><tr><td>
-S1 <= B1
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((A1 AND NOT Co)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A1 AND Co));
+C <= NOT (((NOT B4 AND C3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B4 AND C3 AND NOT A4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT B4 AND NOT C3 AND NOT A4)));
 </td></tr><tr><td>
 </td></tr><tr><td>
-S2 <= B2
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((NOT B1 AND A2)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A1 AND A2)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B1 AND A1 AND NOT A2));
+N_PZ_26 <= ((A2 AND B2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A2 AND NOT B2));
 </td></tr><tr><td>
 </td></tr><tr><td>
-S3 <= B3
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((NOT B2 AND A3)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT A2 AND A3)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B2 AND A2 AND NOT A3));
+N_PZ_30 <= ((Co AND B1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (Co AND A1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B1 AND A1));
 </td></tr><tr><td>
 </td></tr><tr><td>
-S4 <= A4
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((B4 AND NOT B3)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (B4 AND NOT A3)
-<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT B4 AND B3 AND A3));
+S1 <= NOT N_PZ_30
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((N_PZ_30 AND Co AND B1 AND A1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT N_PZ_30 AND NOT Co AND NOT B1 AND NOT A1));
+</td></tr><tr><td>
+</td></tr><tr><td>
+S2 <= ((N_PZ_26 AND N_PZ_30)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT N_PZ_26 AND NOT N_PZ_30));
+</td></tr><tr><td>
+</td></tr><tr><td>
+S3 <= C3
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((C3 AND NOT B3 AND NOT A3 AND NOT A2 AND N_PZ_26)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (C3 AND NOT B3 AND NOT A3 AND NOT N_PZ_26 AND NOT N_PZ_30)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT C3 AND B3 AND A3 AND A2 AND N_PZ_26)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT C3 AND B3 AND A3 AND NOT N_PZ_26 AND N_PZ_30));
+</td></tr><tr><td>
+</td></tr><tr><td>
+S4 <= B4
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((C3 AND A4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT C3 AND NOT A4));
 </td></tr><tr><td>
 </td></tr><tr><td>
 Register Legend:

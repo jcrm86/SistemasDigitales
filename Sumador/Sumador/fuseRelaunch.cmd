@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits_isim_beh.exe" -prj "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/Sumador4Bits_beh.prj" "work.Sumador4Bits" 
+-intstyle "ise" -incremental -o "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/SumadorTest_isim_beh.exe" -prj "C:/Users/Juan Camilo/Documents/UMNG/Digitales/SistemasDigitales/Sumador/Sumador/SumadorTest_beh.prj" "work.SumadorTest" 

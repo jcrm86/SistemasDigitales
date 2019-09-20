@@ -87,20 +87,23 @@
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Sumador4Bits.rpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Sumador4Bits.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Sumador4Bits.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Sumador4Bits.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Sumador4Bits.tspec"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="Sumador4Bits.vm6"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Sumador4Bits.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Sumador4Bits.xst"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sumador4Bits_beh.prj"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Sumador4Bits_build.xml"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sumador4Bits_envsettings.html"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="Sumador4Bits_html"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Sumador4Bits_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Sumador4Bits_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Sumador4Bits_ngdbuild.xrpt"/>
     <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Sumador4Bits_pad.csv"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sumador4Bits_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Sumador4Bits_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Sumador4Bits_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SumadorTest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SumadorTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SumadorTest_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SumadorTest_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sumador_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="Sumador_summary.html"/>
@@ -124,41 +127,50 @@
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1568939512" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1568939512">
+    <transform xil_pn:end_ts="1568985823" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1568985823">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1568939751" xil_pn:in_ck="8346150026195917140" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1568939750">
+    <transform xil_pn:end_ts="1568985889" xil_pn:in_ck="3390222072509822683" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1568985889">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Comparador.vhd"/>
       <outfile xil_pn:name="Sumador.vhd"/>
       <outfile xil_pn:name="Sumador4Bits.vhd"/>
+      <outfile xil_pn:name="SumadorPrueba2.vhd"/>
+      <outfile xil_pn:name="SumadorTest.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1568939751" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3857635109140112287" xil_pn:start_ts="1568939751">
+    <transform xil_pn:end_ts="1568985889" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2807823545338920556" xil_pn:start_ts="1568985889">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1568939751" xil_pn:in_ck="8346150026195917140" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1568939751">
+    <transform xil_pn:end_ts="1568985889" xil_pn:in_ck="3390222072509822683" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1568985889">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="Comparador.vhd"/>
       <outfile xil_pn:name="Sumador.vhd"/>
       <outfile xil_pn:name="Sumador4Bits.vhd"/>
+      <outfile xil_pn:name="SumadorPrueba2.vhd"/>
+      <outfile xil_pn:name="SumadorTest.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1568939757" xil_pn:in_ck="8346150026195917140" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8005105759493420392" xil_pn:start_ts="1568939751">
+    <transform xil_pn:end_ts="1568985894" xil_pn:in_ck="3390222072509822683" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="2928105140634278303" xil_pn:start_ts="1568985889">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Sumador4Bits_beh.prj"/>
-      <outfile xil_pn:name="Sumador4Bits_isim_beh.exe"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SumadorTest_beh.prj"/>
+      <outfile xil_pn:name="SumadorTest_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1568939879" xil_pn:in_ck="1822842560365137872" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1978537659010085691" xil_pn:start_ts="1568939878">
+    <transform xil_pn:end_ts="1568985894" xil_pn:in_ck="-961529787468771846" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4762695581158681396" xil_pn:start_ts="1568985894">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Sumador4Bits_isim_beh.wdb"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SumadorTest_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -166,11 +178,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1568939814" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4559086729660952223" xil_pn:start_ts="1568939814">
+    <transform xil_pn:end_ts="1568985195" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="4559086729660952223" xil_pn:start_ts="1568985195">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1568939828" xil_pn:in_ck="8346150026195917140" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="5081336082232084097" xil_pn:start_ts="1568939814">
+    <transform xil_pn:end_ts="1568985209" xil_pn:in_ck="8346150026195917140" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="5081336082232084097" xil_pn:start_ts="1568985195">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -183,52 +195,14 @@
       <outfile xil_pn:name="Sumador4Bits.stx"/>
       <outfile xil_pn:name="Sumador4Bits.syr"/>
       <outfile xil_pn:name="Sumador4Bits.xst"/>
-      <outfile xil_pn:name="Sumador4Bits_beh.prj"/>
       <outfile xil_pn:name="Sumador4Bits_vhdl.prj"/>
       <outfile xil_pn:name="Sumador4Bits_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1568938948" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-104759121492127975" xil_pn:start_ts="1568938948">
+    <transform xil_pn:end_ts="1568985102" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-104759121492127975" xil_pn:start_ts="1568985102">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1568939839" xil_pn:in_ck="2809362887930296598" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="2820029809837737375" xil_pn:start_ts="1568939828">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Sumador4Bits.bld"/>
-      <outfile xil_pn:name="Sumador4Bits.ngd"/>
-      <outfile xil_pn:name="Sumador4Bits_ngdbuild.xrpt"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-    </transform>
-    <transform xil_pn:end_ts="1568939861" xil_pn:in_ck="-3376180626939569543" xil_pn:name="TRANEXT_vm6File_xbr" xil_pn:prop_ck="-3739689457152998929" xil_pn:start_ts="1568939839">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Sumador4Bits.chk"/>
-      <outfile xil_pn:name="Sumador4Bits.cxt"/>
-      <outfile xil_pn:name="Sumador4Bits.gyd"/>
-      <outfile xil_pn:name="Sumador4Bits.log"/>
-      <outfile xil_pn:name="Sumador4Bits.mfd"/>
-      <outfile xil_pn:name="Sumador4Bits.nga"/>
-      <outfile xil_pn:name="Sumador4Bits.pad"/>
-      <outfile xil_pn:name="Sumador4Bits.pnx"/>
-      <outfile xil_pn:name="Sumador4Bits.rpt"/>
-      <outfile xil_pn:name="Sumador4Bits.vm6"/>
-      <outfile xil_pn:name="Sumador4Bits.xml"/>
-      <outfile xil_pn:name="Sumador4Bits_build.xml"/>
-      <outfile xil_pn:name="Sumador4Bits_html"/>
-      <outfile xil_pn:name="Sumador4Bits_pad.csv"/>
-    </transform>
-    <transform xil_pn:end_ts="1568939865" xil_pn:in_ck="-8310509368645640615" xil_pn:name="TRANEXT_crtProg_xbr" xil_pn:prop_ck="5245363024343" xil_pn:start_ts="1568939861">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="Sumador4Bits.jed"/>
-    </transform>
-    <transform xil_pn:end_ts="1568939861" xil_pn:in_ck="-8310509368645640615" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1568939852">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
   </transforms>
